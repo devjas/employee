@@ -121,7 +121,7 @@ class EmployeeController extends Controller
      */
     public function show($id)
     {
-        $employee = Employee::findOrFail($id);
+        $employee = Employee::find($id);
         return View::make('emp::employees.show-employee', ['employee' => $employee]);
     }
 
