@@ -1,7 +1,7 @@
 # Installation
 
 1. Download employee package into your <code>"packages"</code> directory (packages directory is required) inside of your root Laravel project.
-2. Open the <code>composer.json</code> file that's in the root of your project and add <code>"Jas\\ManageEmployees\\": "packages/employee/manageemployees/src/"</code> inside of <code>autoload > psr-4</code> and save the file.
+2. Open the <code>composer.json</code> file that's in the root of your project and add <br> <code>"Jas\\ManageEmployees\\": "packages/employee/manageemployees/src/"</code> inside of <code>autoload > psr-4</code> and save the file.
 3. Open <code>conifg > app.php</code> file and add the following <code>Jas\ManageEmployees\Providers\EmployeeServiceProvider::class,</code> inside of a providers array.
 4. Open your command line, make sure you are in the root of your project and type <code>composer dump-autoload</code>.
 5. Run <code>php artisan migrate</code> command. This will add all of the required tables into your database.
