@@ -7,7 +7,7 @@
 5. Run <code>php artisan migrate</code> command. This will add all of the required tables into your database.
 6. Run <code>php artisan vendor:publish</code> command, it will create required assets folder inside of your public directory.
 
-This is a package preview example link https://your-website/employee
+This is a package preview example link //your-website/employee
 
 Done!
 
