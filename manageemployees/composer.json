@@ -1,0 +1,28 @@
+{
+    "name": "jas/manageemployees",
+    "description": "Assign employees to different departments",
+    "type": "library",
+    "require": {
+        "php": "7.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jas\\ManageEmployees\\": "packages/employee/manageemployees/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "devjas",
+            "email": "30835414+devjas@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jas\\ManageEmployees\\Providers\\EmployeeServiceProvider"
+            ]
+        }
+    }
+}
