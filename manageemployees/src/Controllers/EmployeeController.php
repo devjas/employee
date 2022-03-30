@@ -133,7 +133,7 @@ class EmployeeController extends Controller
      */
     public function edit($id)
     {
-        $employee = Employee::findOrFail($id);
+        $employee = Employee::find($id);
         $dep_emp = DepEmp::where('emp_id', $id)->first(); // Matches departments id with dep_emps table dep_id
         $departments = Department::all();
         return View::make('emp::employees.edit-employee', [
