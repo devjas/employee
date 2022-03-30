@@ -1,0 +1,22 @@
+@charset 'UTF-8';
+body {
+	background: url('/employee-pkg-assets/images/body-bg.png') no-repeat center top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.employee-table table tbody tr {
+	background: #ffffff;
+	transition: background .2s ease-in-out .01s;
+	-moz-transition: background .2s ease-in-out .01s;
+	-webkit-transition: background .2s ease-in-out .01s;
+}
+.employee-table table tbody tr:hover {
+	background: #f9f9f9;
+	transition: background .2s ease-in-out .01s;
+	-moz-transition: background .2s ease-in-out .01s;
+	-webkit-transition: background .2s ease-in-out .01s;
+}
+
+.employee-table table tbody tr:nth-child(even) {
+	background: #f5f5f5;
+}
