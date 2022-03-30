@@ -62,7 +62,7 @@ class DepartmentController extends Controller
 
         Department::create($validated);
 
-        Session::flash('success', 'Department add successfully!');
+        Session::flash('success', 'Department added successfully!');
         return redirect()->route('department.index');
 
     }
