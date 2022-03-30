@@ -11,6 +11,6 @@ This is a package preview example link //your-website/employee
 
 Done!
 
-Create your departments first as you won't be able to create employees unless you have available departments.
+Create your departments first as you won't be able to create employees unless you have departments available.
 
 In some cases you might have to run <code>php artisan route:cache</code> command.
