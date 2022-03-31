@@ -22,8 +22,8 @@
 					<div class="col-12 col-md-6 mb-2">
 						<label for="emp_title"><small class="text-dark">EMPLOYEE TITLE</small></label>
 						<input type="text" name="emp_title" class="form-control rounded-0 border-secondary" value="{{ old('emp_title') }}">
-						@if($errors->has('title'))
-						<span class="text-danger fw-bold">{{ $errors->first('title') }}</span>
+						@if($errors->has('emp_title'))
+						<span class="text-danger fw-bold">{{ $errors->first('emp_title') }}</span>
 						@endif
 					</div>
 					<div class="col-12 col-md-6 mb-2">
