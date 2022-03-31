@@ -1,4 +1,6 @@
-# Installation
+##Laravel 8/9
+
+### Installation
 
 1. Download employee package into your <code>"packages"</code> directory (packages directory is required) inside of your root Laravel project.
 2. Open the <code>composer.json</code> file that's in the root of your project and add the following <br> <code>"Jas\\\ManageEmployees\\\\": "packages/employee/manageemployees/src/"</code> inside of <code>autoload > psr-4</code> and save the file.
