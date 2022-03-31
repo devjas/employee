@@ -21,8 +21,6 @@ class DepManager extends Model
 
     protected $fillable = [
         'emp_id',
-        'dep_id',
-        'emp_start_date',
-        'emp_end_date'
+        'dep_id'
     ];
 } 
