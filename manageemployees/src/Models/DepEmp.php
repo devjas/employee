@@ -9,7 +9,7 @@ class DepEmp extends Model
 {
     use HasFactory;
 
-    public function departmens() {
+    public function departments() {
         return $this->belongsTo(Department::class, 'dep_id');
     }
 
